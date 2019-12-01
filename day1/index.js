@@ -23,6 +23,8 @@ const res = toMass.reduce((acc, cur) => acc + cur, 0);
 // console.log(mathFormula(b));
 // console.log(mathFormula(c));
 // console.log(mathFormula(d));
-// console.log(fuelArray);
+console.log(fuelArray);
 // console.log(toMass);
-// console.log(res);
+console.log(res);
+
+console.log(mathFormula(100756));
