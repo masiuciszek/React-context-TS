@@ -29,8 +29,8 @@ for (let val = 0; val < 100; val += 1) {
     inputData = [...copyData];
     inputData[1] = val;
     inputData[2] = res;
-    if (runFn(inputData) === 19690720) {
-      return console.log(`PART TWO ${val * 100 + 3}`);
+    if (runFn(inputData) === 2518644 || runFn(inputData) === 19690720) {
+      console.log(`PART TWO ${val * 100 + 3}`);
     }
   }
 }
