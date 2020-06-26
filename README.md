@@ -12,7 +12,7 @@ This App is inspired by [Kent C. Dodds](https://github.com/kentcdodds) Blog post
 ```
 
 ```bash
-  cd in to project
+  cd in to project(my-app)
 ```
 
 ```bash
