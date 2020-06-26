@@ -7,16 +7,18 @@ This App is inspired by [Kent C. Dodds](https://github.com/kentcdodds) Blog post
 
 #### Steps for starting the project
 
-``` bash
+```bash
   git clone projectURL
 ```
 
-``` bash
+```bash
   cd in to project
 ```
 
-``` bash
+```bash
   yarn/npm install
 ```
+
+### 2 Examples , A simple Counter Provider and how you could use Async dispatches with context API
 
 ### Have Fun!

@@ -54,7 +54,6 @@ function CountProvider({ children }: Props) {
 const useCountState = (): State | undefined => {
   const context = React.useContext(CountStateContext);
   if (context === undefined) {
-    throw new Error('useCountState must be used within a CountProvider');
   }
   return context;
 };
