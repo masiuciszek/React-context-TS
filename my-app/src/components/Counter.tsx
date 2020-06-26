@@ -11,7 +11,10 @@ const Counter: React.FC<Props> = () => {
   };
   return (
     <div className='Counter'>
-      <h1> Count is {stateCount?.count} </h1>
+      <h1>
+        Count is
+        <p data-testid='countDisplay'>{stateCount?.count}</p>
+      </h1>
       <button onClick={handleIncrement}>Increment</button>
       <button
         disabled={stateCount?.count === 0}

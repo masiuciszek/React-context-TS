@@ -8,6 +8,7 @@ function App() {
   return (
     <CountProvider>
       <div className='App'>
+        <h1>React Context</h1>
         <Counter />
       </div>
     </CountProvider>
